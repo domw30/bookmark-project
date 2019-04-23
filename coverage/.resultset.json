@@ -1,7 +1,15 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/Projects/bookmark-project/spec/features/viewing_bookmarks_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
     },
-    "timestamp": 1556041013
+    "timestamp": 1556041445
   }
 }
