@@ -28,6 +28,12 @@ Requirement 1 - Show a list of bookmarks.
 
 User Story to Domain Model
 
+```
+As a User,
+So I can select a URL to visit that I know of,
+I’d like to see a list of Bookmarks.
+```
+
 ![DomainModel](https://user-images.githubusercontent.com/39112648/56586804-4666e300-65d8-11e9-8beb-2055dd406a26.jpg)
 
 
