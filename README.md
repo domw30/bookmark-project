@@ -37,11 +37,11 @@ I’d like to see a list of Bookmarks.
 ![DomainModel](https://user-images.githubusercontent.com/39112648/56586804-4666e300-65d8-11e9-8beb-2055dd406a26.jpg)
 
 # To set up the database
-Connect to psql
-Create the database using the psql command CREATE DATABASE bookmark_manager;
-Create the test datasbase using the psql command CREATE DATASBASE bookmark_manager_test;
-Connect to the database using the pqsl command \c bookmark_manager;
-Run the query we have saved in the file 01_create_bookmarks_table.sql
+1. Connect to psql
+2. Create the database using the psql command CREATE DATABASE bookmark_manager;
+3. Create the test datasbase using the psql command CREATE DATASBASE bookmark_manager_test;
+4. Connect to the database using the pqsl command \c bookmark_manager;
+5. Run the query we have saved in the file 01_create_bookmarks_table.sql
 
 # Progress/Status of Project
 
