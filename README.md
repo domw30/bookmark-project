@@ -34,25 +34,32 @@ So I can select a URL to visit that I know of,
 I’d like to see a list of Bookmarks.
 ```
 
-![DomainModel](https://user-images.githubusercontent.com/39112648/56586804-4666e300-65d8-11e9-8beb-2055dd406a26.jpg)
+Requirement 2 - Add new bookmarks.
+```
+As a user,
+So I can save a website I like to visit,
+I'd like to add a bookmark with url to the bookmark manager.
+```
 
-# To set up the database
-1. Connect to psql
-2. Create the database using the psql command CREATE DATABASE bookmark_manager;
-3. Create the test datasbase using the psql command CREATE DATASBASE bookmark_manager_test;
-4. Connect to the database using the pqsl command \c bookmark_manager;
-5. Run the query we have saved in the file 01_create_bookmarks_table.sql
+## Domain Model
 
-# Progress/Status of Project
+  ![Domain Model](https://github.com/Hannah-Frost/bookmark-manager/blob/master/images/domain_model.png)
+  
 
+## How to create the databases
 
-# Technologies
+  In your command line, type the following:
+  1. `psql` : open your user database.
+  2. `CREATE DATABASE bookmark_manager;` : create a database.
+  3. `CREATE DATABASE bookmark_manager_test;` : create a database for testing.
+  4. `\c bookmark_manager;` : connect to the bookmark_manager database.
+  5. Access `01_create_bookmarks_table.sql` located within db/migrations/. Run the query within both databases.
 
+## How to start the server for the app
 
-# Code Quality/Problems
+  Type `rackup -p 2345` into your command line to start the server. Do CTRL+C to close the server.
 
+## How to view the app
 
-# Improvements
+Use the url `localhost:2345/bookmarks` to view the app.
 
-
-# Using this Code
